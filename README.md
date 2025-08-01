@@ -1,10 +1,10 @@
-# 📉 Customer Churn Prediction using Machine Learning
+# Customer Churn Prediction using Machine Learning
 
 This project applies supervised machine learning models to predict customer churn based on telecom user behavior and demographics. It includes data cleaning, preprocessing, feature engineering, model training (Logistic Regression & Random Forest), and performance evaluation.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - Binary classification problem (Churn or Not)
 - Goal: Identify customers likely to churn for proactive retention strategies
@@ -12,14 +12,14 @@ This project applies supervised machine learning models to predict customer chur
 
 ---
 
-## 🧠 Algorithms Used
+## Algorithms Used
 
-- ✅ Logistic Regression (with feature scaling)
-- ✅ Random Forest Classifier (with default settings)
+-  Logistic Regression (with feature scaling)
+-  Random Forest Classifier (with default settings)
 
 ---
 
-## 📂 Data Summary
+## Data Summary
 
 **Features**:
 - Categorical: `gender`, `SeniorCitizen`, `Partner`, `InternetService`, etc.
@@ -34,7 +34,7 @@ This project applies supervised machine learning models to predict customer chur
 
 ---
 
-## ⚙️ Model Development Steps
+## Model Development Steps
 
 1. **Preprocessing**
    - Dropped `customerID`, converted booleans
@@ -52,26 +52,26 @@ This project applies supervised machine learning models to predict customer chur
 
 ---
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
-### 📍 Logistic Regression  
+### Logistic Regression  
 - Accuracy: **0.79**  
 - Precision (Churn): **0.62**  
 - Recall (Churn): **0.52**  
 - F1-Score (Churn): **0.56**
 
-### 📍 Random Forest  
+###  Random Forest  
 - Accuracy: **0.79**  
 - Precision (Churn): **0.63**  
 - Recall (Churn): **0.48**  
 - F1-Score (Churn): **0.54**
 
-### 🔁 Confusion Matrix (Random Forest)
+###  Confusion Matrix (Random Forest)
 - Visualized with Seaborn for better interpretability
 
 ---
 
-## 💾 Outputs
+## Outputs
 
 - `logistic_regression_model_scaled.pkl`
 - `random_forest_model.pkl`
@@ -79,18 +79,18 @@ This project applies supervised machine learning models to predict customer chur
 
 ---
 
-## 👤 Author
+## Author
 
 **Abhi Sharma**  
 Machine Learning Project – Internshala Training
 
 ---
 
-## 🚀 Status
+## Status
 
 ✔️ Completed  
-📁 Includes: Cleaned dataset, trained models, visualizations
+ Includes: Cleaned dataset, trained models, visualizations
 
 ---
 
-> 🔍 This project demonstrates practical machine learning skills in binary classification, model evaluation, and feature engineering for customer churn analysis.
+ This project demonstrates practical machine learning skills in binary classification, model evaluation, and feature engineering for customer churn analysis.
