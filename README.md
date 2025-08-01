@@ -88,7 +88,7 @@ Machine Learning Project – Internshala Training
 
 ## Status
 
-✔️ Completed  
+ Completed  
  Includes: Cleaned dataset, trained models, visualizations
 
 ---
